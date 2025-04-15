@@ -189,4 +189,5 @@ jobs:
           # Deletar a branch de hotfix
           git push origin --delete ${{ env.hotfix_branch }}
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          #andreina3.0#
